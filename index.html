@@ -284,71 +284,64 @@
               <li>Do holidays and promotional markdowns significantly increase sales performance?</li>
               <li>Are there meaningful differences in sales behavior across regions?</li>
               <li>How predictable are weekly sales using historical operational data?</li>
-              <li>Which variables should decision-makers prioritize when planning inventory, promotions, and staffing?</li
-              <li>How can predictive models support retail forecasting and strategic planning?</li>                                                                                                          
+              <li>Which variables should decision-makers prioritize when planning inventory, promotions, and staffing?</li>
+              <li>How can predictive models support retail forecasting and strategic planning?</li>
             </ul>
           </section>
 
           <section class="section">
-            <h3>Metodología</h3>
+            <h3>Methodology</h3>
             <ul>
               <li>
-                <strong>Preparación de datos (Python):</strong> limpieza, validación y
-                estructuración de datasets (pedidos, catálogo y marketing).
+                <strong>Data Loading and Preparation (Python):</strong> cleaning, validation, and structuring of datasets (features, sales, and store).
               </li>
               <li>
-                <strong>Análisis de rentabilidad:</strong> cálculo de KPIs clave
-                (Revenue, Cost, Profit) e identificación de segmentos rentables.
+                <strong>Feature Engineering:</strong> to improve analytical depth and forecasting accuracy, new variables were created from existing data (Time Features, Business Features, Growth Metrics, Lag Features and Rolling Features).
               </li>
               <li>
-                <strong>Funnel de conversión (SQL):</strong> análisis del recorrido del
-                usuario para detectar puntos de abandono.
+                <strong>Exploratory Data Analysis (EDA):</strong> The EDA phase focused on uncovering sales trends, seasonal behaviors, promotional impacts, and regional differences to generate initial business insights and guide subsequent statistical and predictive analyses.
               </li>
               <li>
-                <strong>Análisis de cohortes (SQL):</strong> evaluación de retención y
-                comportamiento en el tiempo.
+                <strong>Statistical Analysis:</strong> Statistical analysis was conducted to validate business assumptions, quantify relationships between variables, and identify significant factors influencing weekly retail sales.
               </li>
               <li>
-                <strong>A/B Testing (Python):</strong> evaluación del impacto de cambios
-                en producto mediante pruebas estadísticas.
-              </li>
-              <li>
-                <strong>Dashboarding:</strong> comunicación de insights mediante visualización.
+                <strong>Predictive Modeling:</strong> Predictive modeling was used to estimate future sales performance, compare model effectiveness, and uncover the variables with the greatest impact on weekly retail sales.
               </li>
             </ul>
           </section>
         
           <section class="section">
-            <h3>Principales resultados</h3>
+            <h3>Key Findings</h3>
         
-            <h4>1. Calidad de los datos</h4>
+            <h4>1. 1. Seasonal Sales Patterns</h4>
             <p>
-              Se generaron datasets limpios y estructurados que permitieron un análisis confiable del negocio.
+              Weekly sales exhibit strong seasonality, with demand fluctuating significantly throughout the year and peaking during specific periods.
             </p>
         
-            <h4>2. Rentabilidad del modelo</h4>
+            <h4>2. Holiday Impact on Sales</h4>
             <p>
-              Se identificaron KPIs clave para evaluar ingresos, costos y ganancias, así como segmentos con mayor contribución económica.
+              Holiday weeks consistently outperform non-holiday periods, confirming the significant influence of seasonal events on retail performance.
             </p>
         
-            <h4>3. Pérdida de usuarios en el funnel</h4>
+            <h4>3. Regional Performance Differences</h4>
             <p>
-              El análisis del funnel permitió detectar etapas críticas con alto abandono de usuarios.
+              Statistical analysis revealed meaningful differences in sales performance across regions, highlighting the need for localized business strategies.
             </p>
         
-            <h4>4. Retención de usuarios</h4>
+            <h4>4. Promotions Drive Sales Growth</h4>
             <p>
-              El análisis de cohortes reveló patrones de comportamiento en la repetición de uso del servicio.
+              Promotional markdowns showed a positive relationship with sales performance, demonstrating their effectiveness in stimulating customer demand.
             </p>
         
-            <h4>5. Impacto de cambios en producto</h4>
+            <h4>5. Historical Sales are Strong Predictors</h4>
             <p>
-              A través de pruebas A/B se evaluó el impacto de modificaciones en el proceso de compra.
+              Recent sales behavior, particularly rolling averages and lagged sales, emerged as the most influential factors for forecasting future sales.
             </p>
-        
-            <div class="highlight">
-              El proyecto permitió identificar oportunidades claras para mejorar conversión, retención y rentabilidad.
-            </div>
+
+            <h4>6. Reliable Forecasting Capability</h4>
+            <p>
+              Predictive models were able to explain approximately 63% of sales variability, demonstrating the potential of data-driven forecasting for retail planning and decision-making.
+            </p>
           </section>
         
           <section class="section">
